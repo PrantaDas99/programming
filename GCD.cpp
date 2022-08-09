@@ -1,3 +1,4 @@
+#define ll long long
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -10,13 +11,13 @@ int gcd(int n,int m){
 }
 int main()
 {
-    int t;
+    ll t;
     cin>>t;
     while (t--)
     {
-      int n,m;
+      ll n,m;
       cin >> n>>m;
-      int ans = gcd(n,m);
+      ll ans = gcd(n,m);
       cout << ans << endl; 
     }
     return 0;
