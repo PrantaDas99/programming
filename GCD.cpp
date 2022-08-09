@@ -1,25 +1,26 @@
-#define ll long long
-#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-
-int gcd(int n,int m){
-    if(m == 0){
-        return n;
-    }
-    else return gcd(m,n%m);
-}
+ 
+#define ll long long
+#define ld long double
+#define ull unsigned long long
+#define ui unsigned int
+#define pi acos(-1)
+#define clr(ar) memset(ar,0,sizeof(ar))
+#define MAX = 9223372036854775807
+#define yes cout<<"YES"<<endl;
+#define no cout<<"NO"<<endl;
+ 
 int main()
 {
-    ll t;
-    cin>>t;
-    while (t--)
-    {
-      ll n,m;
-      cin >> n>>m;
-      ll ans = gcd(n,m);
-      cout << ans << endl; 
+    //freopen("input.txt","r",stdin);
+    ll test = 1, n , temp, chk = 0, cnt = 0;
+    cin >> test;
+    getchar();
+    string str;
+    while(test--){
+
     }
+ 
     return 0;
-    
 }
