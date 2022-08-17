@@ -3,5 +3,6 @@
         "iostream": "cpp",
         "ostream": "cpp"
     },
-    "editor.fontSize": 30
+    "editor.fontSize": 30,
+    "C_Cpp.errorSquiggles": "Disabled"
 }
