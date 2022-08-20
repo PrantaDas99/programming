@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "random": "cpp"
     },
     "editor.fontSize": 30,
     "C_Cpp.errorSquiggles": "Disabled"
