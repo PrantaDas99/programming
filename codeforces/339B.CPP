@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define ld long double
+#define ull unsigned long long
+#define ui unsigned int
+#define pi acos(-1)
+#define clr(ar) memset(ar, 0, sizeof(ar))
+#define MAX = 9223372036854775807
+#define yes cout << "YES" << endl;
+#define no cout << "NO" << endl;
+
+int main()
+{
+    ll n, m;
+    cin >> n >> m;
+    int a[m];
+    for (ll i = 0; i < m; i++)
+    {
+        cin >> a[i];
+    }
+    ll ans = a[0] - 1;
+    for (ll i = 0; i < m-1; i++)
+    {
+        if (a[i] > a[i + 1])
+        {
+            ans += n - (a[i] - a[i + 1]);
+        }
+        else if (a[i] < a[i + 1])
+        {
+            ans += a[i + 1] - a[i];
+        }
+    }
+
+    cout << ans;
+
+    return 0;
+}
