@@ -19,6 +19,16 @@ int main()
     getchar();
     string str;
     while(test--){
+        int n;
+        cin>>n;
+        int a[5];
+        for (int  i = 0; i < 5; i++)
+        {
+            a[i]=n%10;
+            n=n/10;
+        }
+        cout<<a[0]+a[4]<<endl;
+        
         
     }
  

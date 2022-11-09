@@ -19,6 +19,15 @@ int main()
     getchar();
     string str;
     while(test--){
+        ll a;
+        cin>>a;
+        if (a%2==0)
+        {
+            cout<<"even"<<endl;
+        }
+        else{
+            cout<<"odd"<<endl;
+        }
         
     }
  

@@ -13,12 +13,13 @@ using namespace std;
  
 int main()
 {
-    //freopen("input.txt","r",stdin);
-    ll test = 1, n , temp, chk = 0, cnt = 0;
-    cin >> test;
-    getchar();
-    string str;
-    while(test--){
+    while(1){
+        int n;
+        cin>>n;
+        for (int  i = 0; i < count; i++)
+        {
+            /* code */
+        }
         
     }
  

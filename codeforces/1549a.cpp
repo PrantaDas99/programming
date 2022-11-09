@@ -19,7 +19,9 @@ int main()
     getchar();
     string str;
     while(test--){
-        
+        int a;
+        cin>>a;
+        cout<<2<<" "<<a-1<<endl;
     }
  
     return 0;

@@ -19,6 +19,27 @@ int main()
     getchar();
     string str;
     while(test--){
+        int n;
+        cin>>n;
+        string s;
+        cin>>s;
+
+        for (ll i = 0; i < s.size(); i++)
+        {
+            if (s[i]=='U')
+            {
+                printf("D");
+            }
+            else if (s[i]=='D')
+            {
+                printf("U");
+            }
+            else{
+                cout<<s[i];
+            }
+            
+        }
+        cout<<endl;
         
     }
  

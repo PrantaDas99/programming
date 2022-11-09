@@ -19,7 +19,20 @@ int main()
     getchar();
     string str;
     while(test--){
-        
+        char s;
+        cin>>s;
+
+        int a;
+        for (int  i = 63; i >=0; i--)
+        {
+           if(s[i]=='R' || s[i]=='B')
+           {
+
+                a=i;
+                break;
+           }
+        }
+        cout<<s[a];
     }
  
     return 0;
